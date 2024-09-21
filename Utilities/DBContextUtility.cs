@@ -1,19 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Web;
 
-namespace Software1_IIPA24.Utilities
+namespace CRACKED_2024.Utilities
 {
     public class DBContextUtility
     {
-        static string SERVER = "OWLSCAR-MSI\\MSSQLSERVEROWL";
-        static string DB_NAME = "TEST";
-        static string DB_USER = "test";
-        static string DB_PASSWORD = "123test";
+        static string SERVER = "LAPTOP-NP7BDMFC";
+        static string DB_NAME = "CRACKED_2024";
+        static string DB_USER = "admin";
+        static string DB_PASSWORD = "1234";
 
         static string Conn = "server=" + SERVER + ";database=" + DB_NAME + ";user id=" + DB_USER + ";password=" + DB_PASSWORD + ";MultipleActiveResultSets=true";
         //mi conexion:
@@ -25,6 +19,7 @@ namespace Software1_IIPA24.Utilities
             try
             {
                 Con.Open();
+            
             }
             catch (Exception ex)
             {
