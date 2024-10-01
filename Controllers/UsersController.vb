@@ -64,5 +64,15 @@ Namespace Controllers
                 Return View()
             End Try
         End Function
+        Function Registro() As ActionResult
+            ViewData("Message") = "Your contact page."
+
+            Return View()
+        End Function
+        Function DatosGenerales() As ActionResult
+            ViewData("Message") = "Your contact page."
+
+            Return View()
+        End Function
     End Class
 End Namespace

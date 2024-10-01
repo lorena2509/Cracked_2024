@@ -25,6 +25,7 @@
                     <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                     <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Login", "Login", "Home")</li>
+                    <li>@Html.ActionLink("Login", "Registro", "Users")</li>
                 </ul>
             </div>
         </div>

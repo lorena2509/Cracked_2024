@@ -1,9 +1,8 @@
 ﻿@Code
-    ViewData("Title") = "Login"
+    ViewData("Title") = "Registro"
 End Code
 
-<h2>Iniciar Sesion</h2>
-
+<h2>Registro</h2>
 <form>
     <div class="form-group">
         <label for="txtUsuario">Usuario</label>
@@ -14,8 +13,9 @@ End Code
         <label for="txtcontraseña">Contraseña</label>
         <input type="password" class="form-control" id="txtcontraseña" placeholder="contraseña">
     </div>
-    <button type="submit" class="btn btn-primary">Continuar</button>
-    <p class="fst-italic">¿Aún no haces parte de nuestros clientes?</p>
-    <p class="fst-italic">¡Registrate Ahora!</p>
-    <button type="button" class="btn btn-secondary" onclick="window.location='@Url.Action("Registro", "Users")'">REGISTRARSE</button>
+    <div class="form-group">
+        <label for="txtcontraseña">Confirmar contraseña</label>
+        <input type="password" class="form-control" id="txtConfirmarcontraseña" placeholder="Por favor confirma tu contraseña">
+    </div>
+    <button type="button" class="btn btn-secondary" onclick="window.location='@Url.Action("DatosGenerales", "Users")'">CONTINUAR</button>
 </form>
