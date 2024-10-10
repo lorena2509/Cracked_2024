@@ -290,6 +290,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Images\cookie_9004961.png" />
     <Content Include="Content\Images\logo-sin fondo.png" />
     <Content Include="DTOS\UserDto.cs" />
     <EntityDeploy Include="Models\Model1.edmx">
